@@ -1,0 +1,79 @@
+  .container {
+      margin: 0 auto;
+      width: 90vw;
+      max-width: 1024px;
+      background-color: #4E555C;
+  }
+
+
+  /*** splash ***/
+
+  header {
+      width: 90vw;
+      height: 51vw;
+      background-image: url(img/forside1.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      max-width: 1024px;
+      max-height: 576px;
+  }
+
+
+
+  /* START SLUT */
+
+  nav {
+      background-color: #4E555C;
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 0;
+  }
+
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
+
+  nav a {
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      display: block;
+      padding: 10px;
+      font-family: 'Inconsolata';
+  }
+
+  nav a:hover {
+      color: gray;
+  }
+
+
+  /*** farve når man holder mus over tekst ***/
+
+  @media screen and (min-width: 500px) {
+      nav ul {
+          display: flex;
+          justify-content: center;
+      }
+      nav li {
+          flex: 1 1 0;
+      }
+  }
+
+
+
+  #footer_index {
+      width: 90vw;
+      background-color: white;
+      position: absolute;
+      bottom: 0;
+      align-content: center;
+  }
+
+  footer {
+      text-align: center;
+
+      font-family: 'Cormorant Garamond';
+      max-width: 1024px;
+  }
