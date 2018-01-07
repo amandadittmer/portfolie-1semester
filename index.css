@@ -574,15 +574,17 @@ video {
     padding: 1px;
     font-family: 'Cormorant Garamond';
     margin: auto;
+    width: 60%;
     flex-basis: 200px;
     flex-grow: 1;
+
 }
 
 #amanda li {
     padding: 1px;
     font-family: 'Cormorant Garamond';
     margin: auto;
-    font-size: rem;
+    width: 60%
 }
 
 #amanda img {
@@ -591,6 +593,7 @@ video {
     width background-repeat: no-repeat;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 
 }
 
@@ -602,7 +605,10 @@ video {
     height: 300px;
     order: 4;
     margin: 20px 0px;
+}
 
+#amanda .column {
+    margin: auto;
 }
 
 #amanda .column img:hover {
